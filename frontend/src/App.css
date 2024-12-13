@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+  padding: 80px
+}
+
+.loginContainer {
+  margin-top: 100px;
+  display: flex;
+  
+  justify-content: center;
+  padding: 80px; /* Adjusted padding for spacing */
+  border-radius: 12px; /* Adds rounded corners */
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  backdrop-filter: blur(10px); /* Blur effect to enhance the glass look */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border: 1px solid rgba(99,230,190, 0.7); /* Light border for glass effect */
+}
+
+.loginForm{
+  display: flex;
+  /* margin: 50px; */
+  padding: 50px;
+  flex-direction: column;
+  background-color: rgba(99,230,190,0.9);
+  color: #63E6BE;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+}
+
+.signUpForm{
+display: flex;
+  /* margin: 50px; */
+  padding: 50px;
+  flex-direction: column;
+  background-color: rgba(99,230,190,0.9);
+  color: #63E6BE;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;}
+
+
+
+.loginCard{
+  color:#63E6BE;
+  background-color: #63E6BE;
+}
+
+.loginButton{
+  margin: 15px;
+}
+
+
+.inputText{
+  padding: 10px;
+  margin: 25px;
+}
+
+.gender{
+  color: black;
+}
+
+.loginAnchor{
+  color: black;
+  margin-top: 20px;
+}
+
+.signUpAnchor{
+  color: black;
+  margin-top: 20px;
+}
